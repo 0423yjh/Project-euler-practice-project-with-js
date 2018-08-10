@@ -1,3 +1,13 @@
+/*
+A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
+
+a2 + b2 = c2
+For example, 32 + 42 = 9 + 16 = 25 = 52.
+
+There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+Find the product abc.
+*/
+
 function pytagoras(){
     var a, b, c = 1;
     for(var a = 1; a < 1000; a++){
@@ -12,5 +22,6 @@ function pytagoras(){
         }
     }
 }
+//a, b, c의 for문 수정 필요
 
 console.log(pytagoras());
